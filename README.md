@@ -3,9 +3,9 @@
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-4c72b0.svg?style=flat-square)](LICENSE)
-[![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-1e2327.svg?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![MLOps: Feature Store](https://img.shields.io/badge/MLOps-Dual--Storage%20Feature%20Store-22c55e.svg?style=flat-square)](.)
-[![Observability: PSI & KS-Test](https://img.shields.io/badge/Observability-Statistical%20Drift%20(PSI%2FKS)-ea580c.svg?style=flat-square)](.)
+[![Python: 3.10+](https://img.shields.io/badge/Python-3.10→2B-1e2327.svg?style=flat-square&logo=python&logoColor=white)](https://python.org)
+[![MLOps: Feature Store](https://img.shields.io/badge/MLOps-Dual--Storage→20Feature→20Store-22c55e.svg?style=flat-square)](.)
+[![Observability: PSI & KS-Test](https://img.shields.io/badge/Observability-Statistical→20Drift→20(PSI→2FKS)-ea580c.svg?style=flat-square)](.)
 [![Status: Reference Guide](https://img.shields.io/badge/Status-Publication--Grade-4c72b0?style=flat-square)](.)
 [![Author: Nathaniel Gordon](https://img.shields.io/badge/Author-Nathaniel_Gordon-4c72b0?style=flat-square&logo=github)](https://github.com/nathaniel-gordon)
 
@@ -20,13 +20,13 @@
 
 ## 🎯 Executive Overview
 
-Building an ML model in a Jupyter Notebook is simple; operating that model at scale with $99.99\%$ uptime, $<15\text{ms}$ latency, and zero statistical degradation is an **engineering discipline**.
+Building an ML model in a Jupyter Notebook is simple; operating that model at scale with $99.99\→$ uptime, $<15\text{ms}$ latency, and zero statistical degradation is an **engineering discipline**.
 
 In production environments, ML systems fail not because of algorithm choice, but due to subtle systems issues:
 1. **Training-Serving Skew & Data Leakage**: Inconsistent feature definitions between real-time inference and batch training pipelines.
 2. **Covariate Shift & Concept Drift**: Real-world data distributions drifting silently over time without triggering HTTP errors.
 3. **Inference Latency Spikes**: Sub-optimal batching, un-fused computation graphs, and unmanaged tail latency under concurrent load.
-4. **Catastrophic Deployments**: Direct $100\%$ model updates without shadow dark-traffic verification or automated rollback sagas.
+4. **Catastrophic Deployments**: Direct $100\→$ model updates without shadow dark-traffic verification or automated rollback sagas.
 
 **Production ML Systems** provides the architecture blueprints, mathematical metrics, executable simulation tools, and interactive dashboards to build resilient, enterprise-grade ML platforms.
 
@@ -160,7 +160,7 @@ P95 Latency:              19.88 ms
 P99 Latency:              26.14 ms
 P99.9 (Tail Spike):       38.45 ms
 --------------------------------------------------------------------------------
-SLA Violations (> 25.0ms): 64 (98.72% Compliance)
+SLA Violations (> 25.0ms): 64 (98.72→ Compliance)
 ```
 
 ---
@@ -215,14 +215,14 @@ production-ml-systems/
 
 ## 👤 Author & Contact
 
-<table width="100%">
+<table width="100→">
 <tr>
-<td width="20%" align="center">
-  <img src="https://avatars.githubusercontent.com/u/318755903?v=4" width="120px" style="border-radius: 50%;" alt="Nathaniel Gordon" /><br/>
+<td width="20→" align="center">
+  <img src="https://avatars.githubusercontent.com/u/318755903?v=4" width="120px" style="border-radius: 50→;" alt="Nathaniel Gordon" /><br/>
   <strong>Nathaniel Gordon</strong><br/>
   <sub>Senior AI & ML Engineer</sub>
 </td>
-<td width="80%">
+<td width="80→">
 
 **Specializations**: Agentic AI Architectures · Multi-Agent Orchestration · RAG Systems · Risk & Decision Intelligence · Production MLOps
 
