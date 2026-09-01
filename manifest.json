@@ -1,0 +1,14 @@
+{
+  "name": "production-ml-systems",
+  "category": "MLOps & Production ML Infrastructure",
+  "architecture": "Production ML systems reference design: Dual-storage feature store simulator + real-time inference latency monitor + statistical drift detection (KS test, PSI, Wasserstein) + canary deployment sagas",
+  "interface": "CLI — mldrift | mlfeatures | mllatency",
+  "testing": "5-test pytest suite covering feature stores, statistical drift detection, latency monitoring, and model canary deployments (pytest tests -q)",
+  "demo_cmd": "python -m demo.drift_detector",
+  "test_cmd": "pytest tests -q",
+  "entry_points": [
+    "demo/drift_detector.py",
+    "demo/feature_store_simulator.py",
+    "demo/latency_monitor.py"
+  ]
+}
