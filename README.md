@@ -55,13 +55,13 @@ flowchart TD
     Streams --> OfflineStore
     Batches --> OfflineStore
     OnlineStore --> Router
-    OfflineStore -->|Training Set| ModelV2
+    OfflineStore -->|"Training Set"| ModelV2
     Router --> ModelV1
-    Router -.->|Shadow Traffic| ModelV2
+    Router -.->|"Shadow Traffic"| ModelV2
     ModelV1 --> ObservabilityLayer
-    Drift -->|Critical Shift (PSI >= 0.25)| Saga
-    Latency -->|SLA Breach (>25ms)| Saga
-    Saga -->|Circuit Breaker Trip| Router
+    Drift -->|"Critical Shift (PSI >= 0.25)"| Saga
+    Latency -->|"SLA Breach (>25ms)"| Saga
+    Saga -->|"Circuit Breaker Trip"| Router
 
     style IngestionLayer fill:#1e2327,stroke:#4c72b0,stroke-width:1.5px,color:#ffffff
     style ServingLayer fill:#1e2327,stroke:#22c55e,stroke-width:1.5px,color:#ffffff
